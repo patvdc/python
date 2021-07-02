@@ -1,0 +1,7 @@
+f = open("text2.txt", "w")
+print("create empty file even if exists (delete/define)")
+f.close()
+f = open("text2.txt", "r")
+print("content file")
+print(f.read())
+f.close()

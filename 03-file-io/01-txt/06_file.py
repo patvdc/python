@@ -1,0 +1,7 @@
+f = open("text1.txt", "w")
+print("overwrite file")
+f.write("first line after file deletion")
+f.close()
+f = open("text1.txt", "r")
+print(f.read())
+f.close()

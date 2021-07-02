@@ -1,0 +1,6 @@
+f = open("text.txt")
+print("read first line")
+print(f.readline())
+print("read second line")
+print(f.readline())
+f.close()

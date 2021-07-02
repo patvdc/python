@@ -1,0 +1,7 @@
+f = open("text3.txt", "x")
+print("create empty file if not exists")
+f.close()
+f = open("text3.txt", "r")
+print("content file")
+print(f.read())
+f.close()
